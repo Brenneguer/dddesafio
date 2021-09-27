@@ -21,15 +21,16 @@ http://44.197.229.182/usuarios/
 
 http://44.197.229.182/perfis/
 
-<li>
-  <ul>1 - Gere o arquivo war com o maven
-mvn package
-    </ul
 <ul>
+  <li>
+1 - Gere o arquivo war com o maven
+mvn package
+  </li>
+  <li>
 2 - acesse a pasta target e copie o arquivo com extensão .war para o diretorio webapps do seu tomcat.
-</ul>
- <ul> 
+  </li>
+  <li>
 3 - renomei o arquivo para ROOT.war
-  </ul>
-
 execute o tomcat e acesse os end-poitns
+  </li>
+</ul
