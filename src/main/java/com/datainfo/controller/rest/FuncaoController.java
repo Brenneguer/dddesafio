@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/funcoes/")
-@CrossOrigin
 public class FuncaoController {
     private final FuncaoRepository funcaoRepository;
 

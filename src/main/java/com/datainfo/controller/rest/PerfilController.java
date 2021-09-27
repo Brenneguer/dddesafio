@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/perfis/")
-@CrossOrigin
 public class PerfilController {
     private final PerfilRepository perfilRepository;
 
